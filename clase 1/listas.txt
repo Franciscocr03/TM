@@ -2,3 +2,7 @@ pan
 galletitas
 queso
 frutas
+dulces
+chocolate
+frutilla
+
