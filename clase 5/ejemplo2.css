@@ -1,0 +1,19 @@
+/*   font-family: 'Lobster', cursive;
+font-family: 'Roboto Condensed', sans-serif;*/
+
+h1{
+    color: rgb(220, 127, 13);
+    font-family: 'Lobster', cursive;
+
+}
+
+h2{
+    color: red;
+    font-family: 'Lobster', cursive;
+
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
