@@ -1,0 +1,23 @@
+.contenedor{
+    background-color: rgb(58, 58, 63);
+    display: flex;
+    /* justify-content: flex-end; */
+    /* justify-content:space-evenly; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+     /* justify-content: center; */
+   
+    /* display: inline-flex; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction:column-reverse; */
+    /* flex-wrap: wrap-reverse; */
+
+}
+
+.item{
+    background-color: aqua;
+    width: 70px;
+    height: 100px;
+    margin: 20px;
+    font-size: 25px;
+}
