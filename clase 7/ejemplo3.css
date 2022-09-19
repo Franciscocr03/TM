@@ -1,0 +1,44 @@
+.caja{
+    width: 400px;
+    height: 250px;
+    background-color: aqua;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    animation: rectangulo 2s ease;
+  
+   
+}
+
+@keyframes rectangulo{
+    15%{
+        background-color: red;
+        transform: scale(0.9);
+    }
+    35%{
+        background-color: yellow;
+        transform: scale(1.1);
+    }
+    50%{
+        background-color: rgb(255, 170, 0);
+        transform: scale(0.9);
+    }
+    65%{
+        background-color: rgb(0, 8, 255);
+        transform: scale(1.1);
+    }
+    85%{
+        background-color: rgb(128, 0, 255);
+        transform: scale(0.9);
+    }
+    100%{
+        background-color: rgb(1, 94, 14);
+        transform: scale(1.1);
+    }
+    
+
+}
