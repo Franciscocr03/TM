@@ -218,5 +218,63 @@ h2{
 .formulario p input,
 .formulario p textarea{
     width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    border: 1px solid #999;
+    font-size: 14px;
+    padding: 6px;
 
+}
+
+.formulario textarea{
+    resize: none;
+    height: 150px;
+
+}
+
+.formulario p:nth-child(4){
+    align-items: start;
+
+}
+
+.formulario input [type="submit"]{
+    background-color: #6da9ed;
+    box-shadow: 0 0 10px gray;
+    color: white;
+    font-size: 16px;
+    width: auto;
+    margin-left: 80px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+
+}
+
+.formulario input [type="submit"]:hover{
+    background-color: #2e64a1;
+}
+
+
+
+.galeria {
+    margin-bottom: 20px;
+}
+
+.fotos {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.fotos img {
+    border: 1px solid #ddd;
+    max-width: 17%;
+    padding: 1%;
+    margin: 1%;
+}
+
+.fotos img:hover {
+    border: 1px solid #2e64a1;
+    background-color: aqua;
+    cursor: pointer;
 }
